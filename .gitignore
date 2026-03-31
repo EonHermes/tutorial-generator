@@ -1,0 +1,40 @@
+# Rust
+/target/
+**/target/
+Cargo.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+debug/
+
+# Release binaries (if we build them locally)
+tutorial-generator
+
+# Node / React viewer
+node_modules/
+dist/
+.vite/
+
+# Test output
+**/tests/fixtures/
+**/tests/output/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE
+.zed/
+
+# macOS
+.AppleDouble
+.LSOverride
